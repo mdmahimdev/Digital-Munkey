@@ -1,0 +1,330 @@
+   /* font  */
+
+   /* font end  */
+
+
+/*css oll common type*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+}
+
+
+ul,ol{list-style-type: none;}
+
+
+
+
+
+
+
+
+
+/*css oll common end*/
+header{}
+
+
+
+
+#navbar{
+  display: flex;
+  background-color: #101828;
+}
+
+.nav-container{
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.navflex{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+}
+
+
+
+.nav-fastpart{
+  display: flex;
+  gap: 40px;
+}
+
+.nav-fastpart .navlogo{
+  align-items: center;
+}
+
+.navlogo >img{
+  align-items: center;
+  padding-top: 10px;
+}
+
+
+.nav-fastpart ul{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+
+}
+
+.nav-fastpart ul li a{
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+
+
+.nav-secendpart{
+  
+}
+
+
+.nav-secendpart a{
+  
+}
+
+
+.nav-secendpart .login{
+  font-weight: 600;
+  color: greenyellow;
+  padding-right: 48px;
+  font-size: 20px;
+}
+
+.nav-secendpart .login >a{
+  
+}
+
+.nav-secendpart .singin{
+  font-weight: 600;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 10px;
+  background-color: rgb(105, 163, 47);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* banner1 st */
+
+#banner-1{
+  background-color: #101828;
+  height: 770px;
+}
+
+.container{}
+
+.banner1-flex{
+  display: flex;
+}
+
+.banner-left{
+  background-image: url(../pic/banner_reight_box_box.png);
+  background-repeat: no-repeat;
+  
+}
+
+.banner-left h1{
+  width: 624px;
+  font-size: 60px;
+  font-weight: 400;
+  color: white;
+  padding-top: 138px;
+}
+
+.banner-left >h1 .nft{
+  color: rgb(127, 194, 27);
+}
+
+.banner-left >h1 .seconds{
+  color: rgb(127, 194, 27);
+}
+
+.banner-left >p{
+  width: 619px;
+  font-size: 16px;
+  font-weight: 400px;
+  color: white;
+  padding-top: 13px;
+  padding-bottom: 39px;
+}
+
+
+
+
+/* banner left sing btn */
+
+.banner1-signup-btn-flex{
+  display: flex;
+  padding-bottom: 39px;
+}
+
+.banner1-signup-btn-flex a{
+  
+}
+
+.banner1-signup-btn-flex .singup{
+  font-size: 20px;
+  padding: 16px 32px;
+  border-radius: 10px;
+  background-color: darkgreen;
+  color: white;
+  text-decoration: none;
+}
+
+.banner1-signup-btn-flex .see-how{
+  padding: 16px 0px 0px 48px;
+  color: white;
+}
+
+
+
+
+.banner1-left-lastflex{
+  display: flex;
+  gap: 10px;
+}
+
+.banner1-left-lastflex .protected{
+  display: flex;
+  gap: 12px;
+}
+
+.banner1-left-lastflex .protected >i{
+  color: rgb(207, 140, 191);
+  padding-top: 8px;
+}
+
+.banner1-left-lastflex p{
+  color: white;
+}
+
+.banner1-left-lastflex .easy{
+  display: flex;
+  gap: 10px;
+}
+
+.banner1-left-lastflex .easy >i{
+  color: brown;
+  padding-top: 8px;
+}
+
+.banner1-left-lastflex .easy p{
+  color: white;
+}
+
+
+.banner1-left-lastflex .fast{
+  display: flex;
+  gap: 10px;
+}
+
+.banner1-left-lastflex .fast i{
+  color: rgb(44, 204, 12);
+  padding-top: 8px;
+}
+
+.banner1-left-lastflex .fast p{
+  color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+/* banner reight */
+
+.banner-reight{
+  width: 770px;
+  height: 730px;
+  background-color: #101828;
+  z-index: 1;
+}
+
+.gradint-banner1-bg{
+  background-image: url(../pic/lyear_blur.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+
+}
+
+.big-munkey-png{
+  background-image: url(../pic/left_big_munkey.png);
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+
+.mini-card-eth{
+  border-radius: 20px;
+  display: flex;
+  padding: 494px 55px 111px 309px;
+}
+
+.eth-lefttext{}
+
+.eth-lefttext h4{
+  font-size: 20px;
+  color: white;
+  padding-top: 10px 0px 10px 10px;
+}
+
+.eth-lefttext >p{
+  font-size: 13px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+
+.eth-btnflex{
+  display: flex;
+}
+
+.buy-naw .buy {
+  font-size: 16px;
+  color: white;
+  padding: 8px 16px;
+  background-color: rgb(39, 119, 14);
+}
+
+.eth-icon{
+
+}
+
+.eth-icon >i{
+  color: green;
+}
+
+.eth-icon >p{
+  color: white;
+  
+}
+
+.mini-muncky-opacity{}
+
+.mini-muncky-opacity img{}
